@@ -1,6 +1,7 @@
 services:
   jupyter:
     image: karimelbarbary2024/python_jupyterlab
+    
     ports:
       - "8888:8888"
     env_file:
