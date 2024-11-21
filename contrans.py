@@ -14,6 +14,7 @@ from sumy.parsers.plaintext import PlaintextParser
 from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.lsa import LsaSummarizer
 
+
 class contrans:
         def __init__(self):
                 dotenv.load_dotenv()
